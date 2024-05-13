@@ -1,0 +1,172 @@
+
+footer{
+    height: 50vh;
+    background-image: linear-gradient(#0a0a0a 20%, #000 60%);
+    color: #a0a0a0;
+    padding: 60px 0 30px;
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+    font-size: 13px;
+}
+.row{
+    /* display: grid; */ 
+    width: 85%; 
+    margin: auto;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col:nth-child(2),
+.col:nth-child(3){
+    flex-basis: 14%;
+}
+
+.logo-ftext{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -12px;
+    
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+}
+.col:nth-child(4){
+    margin-top: -3px;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 ;
+}
+.col h4{
+    color: #fff;
+}
+
+.footer-ul .footer-li{
+    list-style: none;
+    margin-bottom: 12px;
+    line-height: .9;
+}
+.footer-ul .footer-li a{
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer-ul .footer-li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer-form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.footer-form .envelope-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footer-form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+.footer-form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.footer-form button .arrow-right-icon{
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icons .footer-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align:  center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    transition: .3s;
+}
+.social-icons .footer-icon:hover{
+    color: red;
+}
+footer hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 30px auto;
+}
+.copyright{
+    text-align: center;
+    margin: -10px 0 10px;
+}
+.copyright-icon{
+    margin: 0 5px;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+/* @keyframes moving{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 85%;
+    }
+    100%{
+        left: 0px;
+    }
+} */

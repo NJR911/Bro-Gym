@@ -1,0 +1,69 @@
+
+.header{
+    background-color: #0a0a0a;
+    background-image: linear-gradient(#0a0a0a 20%, #000 60%,);
+    height: 105vh;
+    color: #a0a0a0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0 0;
+}
+.header .left-box{
+    width: 25%;
+}
+.left-box img{
+    width: 42rem;
+    margin: auto;
+}
+
+.right-box{
+    text-align: center;
+    color: #fff;
+    
+}
+.right-box h1{
+    font-size: 45px;
+}
+.right-box h1 span,
+.right-box p span{
+   color: red;
+}
+.right-box p {
+    font-size: 25px;
+}
+
+.btns{
+    margin-top: 120px;
+    margin-left: -280px;
+}
+.join-btn{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0a0a0a;
+    background-color: #fff;
+    padding: 18px 35px;
+    box-shadow: 12px -12px 0 0 #0a0a0a, 12px -12px 0px 2px  red;
+    transition: .3s;
+}
+.join-btn:hover{
+    box-shadow: 0px 0px 0px 0px  red;
+    color: #fff;
+    background-color: red;
+} 
+.class-content .btn1{
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    box-shadow: 10px -10px 0 2px #0a0a0a, 
+                10px -10px 0 3px #888;
+    transition: .4s;
+    text-decoration: none;
+    color: #d1d5db;
+}
+.class-content .btn1:hover{
+    box-shadow: 0 0 0 0 #0a0a0a, 0 0 0 0 #888;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+}

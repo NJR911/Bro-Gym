@@ -1,0 +1,126 @@
+
+
+nav{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #020202;
+    padding: 15px 0;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    margin-top: 5px;
+}
+.logo-text {
+    color: #a0a0a0;
+    text-decoration: none;
+    margin-left: -50px;
+    transition: .2s;
+}
+.logo-text:hover {
+    color: #fff;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    margin-top: 12px;
+}
+.links li{
+    margin: 0 10px;
+}
+.links-text{
+    text-decoration: none;
+    color: #a0a0a0;
+    transition: .3s;
+    position: relative;
+    font-size: 18px;
+    padding: 0 10px;
+    transition: .2s;
+}
+.links-text::after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -20px;
+    transition: .2s;
+
+}
+.links-text:hover {
+    color: white;
+}
+.links-text:hover::after {
+    width: 100%;
+}
+
+.links-text:hover,
+.active {
+    color: white;
+}
+
+.links-text:hover::after,
+.active::after {
+    width: 100%;  /* This makes the underline span the full width */
+}
+
+
+.buttons{
+    display: flex;
+}
+.button-login,
+.button-signup{
+    /* margin: 6px 0 0 0; */
+    color: #a0a0a0;
+    text-decoration: none;
+}
+.button-signup{
+    margin-right: -70px;
+    border: 2px solid #a0a0a0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #a0a0a0;
+    font-weight: 500;
+    transition: .2s;
+}
+.button-signup:hover{
+    border: 2px solid red;
+    background-color: red;
+    color: #fff;
+}
+.button-login{
+    margin-right: 10px;
+    border: 2px solid red;
+    background-color: red;
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 500;
+    transition: .2s;
+}
+.button-login:hover{
+    border: 2px solid #a0a0a0;
+    background-color: #0a0a0a;
+    color: #fff;
+}
+.button-logout{
+    color: #a0a0a0;
+    background-color: #0a0a0a;
+    border: 2px solid #a0a0a0;
+    margin-right: -70px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: .3s;
+    font-size: 15px;
+}
+.button-logout:hover{
+    color: red;
+    cursor: pointer;
+    border: 2px solid red;
+}
+

@@ -1,0 +1,74 @@
+.review {
+    background-color: #1f2125;
+    padding: 6rem 15rem 2rem;
+}
+
+.review-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.review-container > span.i {
+    font-size: 6rem;
+    color: red;
+    opacity: 0.5;
+    position: relative; /* Added position relative */
+}
+
+.review-content {
+    flex: 1;
+}
+
+.review-content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.review-content p {
+    max-width: 800px;
+    margin-bottom: 2rem;
+    color: #d1d5db;
+}
+
+.review-rating span {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.review-footer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.review-member {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.review-member img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.review-member-details h4 {
+    margin-bottom: 0;
+}
+
+.review-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.review-nav span {
+    font-size: 2rem;
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+
+.price-container{
+    height: 110vh;
+    padding: 100px 200px;
+    /* background-color: #a0a0a0; */
+    background-color: #0a0a0a;
+}
+.price-container .section-header{
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: 2px underline red;
+}
+.price-container .section-superheader{
+    color: #d1d5db;
+    text-align: center;
+    margin-top: .8rem;
+}
+.price-container .section-superheader span{
+    color: red;
+    font-weight: 500;
+}
+
+.price-grid{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.price-card{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2125;
+    border: 2px solid transparent;
+    /* border-radius: 10px; */
+    cursor: context-menu;
+    transition: .3s;
+}
+.price-card:hover{
+    background-color:  #14171a;
+    border-color: red;
+}
+.price-card-content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+.price-card h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.price-card h3{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+}
+.price-card p{
+    margin-bottom: .75rem;
+    color: #d1d5db;
+    font-size: 14px;
+    transition: .3s;
+}
+.price-card:hover p{
+    color: #fff;
+}
+.price-card .price-icon{
+    margin-right: .2rem;
+    font-size: .8rem;
+    color: tomato;
+    transition: .3s;
+}
+.price-card:hover .price-icon{
+    color: red;
+}
+.btn-price{
+    /* color: #f9ac54;
+    background-color: transparent;
+    border: 2px solid #f9ac54;
+    box-shadow: 10px -10px 0 2px #0a0a0a, 
+                10px -10px 0 3px #888; */
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    transition: .4s;
+    text-decoration: none;
+    color: #d1d5db;
+}
+.btn-price:hover{
+    /* color: #fff;
+    background-color: #f9ac54; 
+    box-shadow: 0 0 0 0 #0a0a0a, 0 0 0 0 #888;*/
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    cursor: pointer;
+}
+/* .class-content .btn1{
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    box-shadow: 10px -10px 0 2px #0a0a0a, 
+                10px -10px 0 3px #888;
+    transition: .4s;
+    text-decoration: none;
+    color: #d1d5db;
+}
+.class-content .btn1:hover{
+    box-shadow: 0 0 0 0 #0a0a0a, 0 0 0 0 #888;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+} */
+
+
