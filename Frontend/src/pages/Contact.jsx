@@ -20,7 +20,7 @@ export default function Contact(){
 
     return(
         <>
-            <div style={{height:"210vh", background:"#dedede", padding:"100px 0"}} >
+            <div style={{height:"210vh", background:"#0a0a0a", padding:"100px 0"}} >
                 <h1 className="contact-us-h1">Contact Us</h1>
                 
                 <div className="contact-us-container">

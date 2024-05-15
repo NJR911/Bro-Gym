@@ -79,12 +79,14 @@
 }
 
 
-/* Contact US page */
+/*           Contact US page            */
+
 
 .contact-us-h1{
   text-align: center;
   padding: 40px 0 50px;
   text-decoration: underline 3px red;
+  color: #fff;
 }
 
 .contact-us-container {
@@ -107,28 +109,29 @@
 }
 
 .contact-info h1, .contact-form h1 {
-  color: #000;
+  color: #fff;
 }
 .contact-info h1{
   font-size: 35px;
   margin-bottom: 25px;
+  color: #fff;
 }
 .contact-info p{
   font-size: 18px;
-  color: #000000a1;
+  color: #ffffffa1;
   margin-bottom: 25px;
 }
 
 
 .info-section h2 {
   font-size: 18px;
-  color: #000;
+  color: #fff;
   text-decoration: underline 2px red;
 }
 
 .info-section p {
   font-size: 16px;
-  color: #333;
+  color: #ffffffa1;
   margin-top: 5px;
 }
 
@@ -143,6 +146,7 @@
   height: 30px;
   cursor: pointer;
   transition: .3s;
+  color: #ffffffa1;
 }
 .info-section .contact-icon:hover{
   color: red;
@@ -151,7 +155,7 @@
 
 .contact-form {
   padding: 50px;
-  background-color: #c8c8c8;
+  background-color: #2c2525;
 }
 .contact-form h1{
   margin-bottom: 50px;
