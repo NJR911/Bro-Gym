@@ -1,8 +1,8 @@
 import './auth.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import AuthLayout from './auth-layout';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Login() {
     const [email, setEmail] = useState('');
@@ -14,9 +14,14 @@ export default function Login() {
         login(email, password);
     };
 
-    // if (user) {
-    //     return <Redirect to="/dashboard" />;
-    // }
+    const navigate = useNavigate()
+    const { user } = useAuth();
+    
+    useEffect(()=>{
+        if(user){
+            navigate('/dashboard')
+        }
+    }, [user, navigate])
 
     return (
         <>

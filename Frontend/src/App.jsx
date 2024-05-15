@@ -10,6 +10,7 @@ import Login from './pages/auth/login'
 import SignUp from './pages/auth/signup'
 import Footer from './components/Layouts/footer'
 import Dashboard from './pages/user/dashboard'
+import Blog from './pages/Blog'
 
 
 
@@ -30,6 +31,7 @@ function App() {
             <Route path='/login' element={ <Login /> } />
             <Route path='/signup' element={ <SignUp /> } />
             <Route path='/dashboard' element={ <Dashboard /> } />
+            <Route path='/blog' element={ <Blog /> } />
           </Routes>
           <Footer />
         

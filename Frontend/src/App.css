@@ -4,45 +4,204 @@
   box-sizing: border-box;
   font-family: Rubik;
 }
-/* #root {
-  max-width: 1280px;
+
+/* The About Page  */
+.about-page {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.about-header {
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  color: #a10606;
+  margin-bottom: 5px;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.about-content {
+  margin-bottom: 50px;
+}
+
+.about-content h2 {
+  font-size: 30px;
+  color: #a10606;
+  margin-bottom: 5px;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-cta {
+  margin-bottom: 40px;
+}
+
+.about-cta h3 {
+  font-size: 24px;
+  color: #a10606;
+  margin-bottom: 10px;
+}
+
+.about-cta p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #c60505;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 17px;
+  
+  transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #9d0101;
+}
+
+
+/* Contact US page */
+
+.contact-us-h1{
+  text-align: center;
+  padding: 40px 0 50px;
+  text-decoration: underline 3px red;
+}
+
+.contact-us-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.contact-info {
+  padding: 50px; 
+}
+
+.info-section-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 20px;
+}
+
+.contact-info h1, .contact-form h1 {
+  color: #000;
+}
+.contact-info h1{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.contact-info p{
+  font-size: 18px;
+  color: #000000a1;
+  margin-bottom: 25px;
+}
+
+
+.info-section h2 {
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline 2px red;
+}
+
+.info-section p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.info-section-icons{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 0;
+}
+.info-section-icons .contact-icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+.info-section .contact-icon:hover{
+  color: red;
+}
+
+
+.contact-form {
+  padding: 50px;
+  background-color: #c8c8c8;
+}
+.contact-form h1{
+  margin-bottom: 50px;
+  text-decoration: underline 3px #d31414;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.select-class{
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+.contact-form textarea{
+  height: 150px;
+}
+
+.contact-form .button{
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.contact-form button:hover {
+  background-color: #d31414;
 }
 
-.card {
-  padding: 2em;
+.map-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.map{
+  width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
-} */
