@@ -45,7 +45,7 @@ export default function Contact(){
                             <div className="info-section">
                                 <h2>Opening Hours</h2>
                                 <p>
-                                    Mon - Fri: 9:00 AM - 8:00 PM 
+                                    Mon - Fri: 9:00 AM - 11:00 PM 
                                     <br />
                                     Sat - Sun: 10:00 AM - 6:00 PM
                                </p>

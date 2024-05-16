@@ -6,6 +6,7 @@
 }
 
 /* The About Page  */
+
 .about-page {
   max-width: 800px;
   margin: 0 auto;
@@ -22,6 +23,7 @@
   font-size: 36px;
   color: #a10606;
   margin-bottom: 5px;
+  text-decoration: underline 2px ;
 }
 
 .about-header p {
@@ -207,5 +209,138 @@
 }
 .map{
   width: 100%;
+}
+
+  /*  Schedule  */
+
+  
+.schedule-h1{
+  color: #fff;
+  text-align: center;
+  padding: 130px 0 50px;
+  font-size: 36px;
+  text-decoration: underline 3px red;
+}
+
+.classes-schedule-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.day-selector{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.day-selector .day-button{
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #0a0a0a;
+  cursor: pointer;
+  transition: .3s;
+}
+.day-selector .day-button:hover{
+  background-color: red;
+  border: 2px solid red;
+}
+
+.day-button.selected {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
+
+.day-section {
+  margin-bottom: 30px;
+}
+.day-section .class-table tr th:nth-child(1){
+  padding: 0 30px;
+}
+
+.class-table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.class-table th, 
+.class-table td {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.class-table th {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.class-table tbody tr:nth-child(even) {
+  background-color: #212121; 
+}
+
+.class-table td:last-child {
+  text-align: center;
+}
+
+.join-button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #b31212;
+}
+
+
+
+/*   FAQ  */
+
+.faq-h1{
+  color: #fff;
+  text-align: center;
+  padding: 130px 0 50px;
+  font-size: 36px;
+  text-decoration: underline 3px red;
+}
+.faq-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.faq-list {
+  width: 700px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.faq-item {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.faq-item:hover {
+  background-color: #e9e9e9;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  margin-top: 10px;
 }
 

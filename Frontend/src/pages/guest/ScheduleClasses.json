@@ -1,0 +1,56 @@
+{
+    "Monday": [
+        "Yoga - 9:00 AM to 10:00 AM - Studio A - Kate Hudson",
+        "Zumba - 11:00 AM to 12:00 PM - Studio B - Jenna Dewan",
+        "Pilates - 2:00 PM to 3:00 PM - Studio C - Lilly Sabri",
+        "Body Building - 5:00 PM to 6:00 PM - Weight Room - Mike Johnson",
+        "Boxing - 7:00 PM to 8:00 PM - Boxing Room - Muhammed Ali",
+        "Power Lifting - 9:00 PM to 10:00 PM - Weight Room - Arnold Schwarzenegger"
+    ],
+    "Tuesday": [
+        "Spinning - 9:00 AM to 10:00 AM - Cycling Room - Roberto Carlos",
+        "Pilates - 11:00 AM to 12:00 PM - Studio C - Pamela Reif",
+        "Boxing - 2:00 PM to 3:00 PM - Boxing Room - Mike Tyson",
+        "Fitness - 5:00 PM to 6:00 PM - Studio A - Cristiano Ronaldo",
+        "Running - 7:00 PM to 8:00 PM - Outdoor Track - Amin ZK",
+        "MMA - 9:00 PM to 10:00 PM - Martial Arts Room - Jon Jones"
+    ],
+    "Wednesday": [
+        "Body Building - 9:00 AM to 10:00 AM - Weight Room - Arnold Schwarzenegger",
+        "Fitness - 11:00 AM to 12:00 PM - Studio A - Son Goku",
+        "Running - 2:00 PM to 3:00 PM - Outdoor Track - Fahd chelada",
+        "Zumba - 5:00 PM to 6:00 PM - Studio B - Jenna Dewan",
+        "Yoga - 7:00 PM to 8:00 PM - Studio C - Deanne Panday",
+        "Power Lifting - 9:00 PM to 10:00 PM - Weight Room - Right hand"
+    ],
+    "Thursday": [
+        "Yoga - 9:00 AM to 10:00 AM - Studio A - Kate Hudson",
+        "Karate - 11:00 AM to 12:00 PM - Martial Arts Room - Chun-Li",
+        "Cycling - 2:00 PM to 3:00 PM - Cycling Room - Alex Johnson",
+        "Boxing - 5:00 PM to 6:00 PM - Boxing Room - Tyson Fury",
+        "Meditation - 7:00 PM to 8:00 PM - Quiet Room - katy perry",
+        "CrossFit - 9:00 PM to 10:00 PM - Studio B - Christoph Columbus"
+    ],
+    "Friday": [
+        "Meditation - 9:00 AM to 10:00 AM - Quiet Room - Lara Croft",
+        "Workout - 11:00 AM to 12:00 PM - Studio B - Mark Johnson",
+        "Zumba - 2:00 PM to 3:00 PM - Studio C - Jenna Dewan",
+        "Karate - 5:00 PM to 6:00 PM - Martial Arts Room - Emily Brown",
+        "Pilates - 7:00 PM to 8:00 PM - Studio C - Eleni Fit",
+        "MMA - 9:00 PM to 10:00 PM - Martial Arts Room - Conor MC"
+    ],
+    "Saturday": [
+        "Running - 10:00 AM to 11:00 AM - Outdoor Track - Natalie Dormer",
+        "Yoga - 12:00 PM to 1:00 PM - Studio A - Emily Brown",
+        "Boxing - 2:00 PM to 3:00 PM - Boxing Room - Muhammed Ali",
+        "Fitness - 4:00 PM to 5:00 PM - Studio A - Laura Lee",
+        "CrossFit - 6:00 PM to 7:00 PM - Studio B - Jason Smith"
+    ],
+    "Sunday": [
+        "Fitness - 10:00 AM to 11:00 AM - Studio A - Sarah Lee",
+        "Workout - 12:00 PM to 1:00 PM - Studio B - Mark Johnson",
+        "Cycling - 2:00 PM to 3:00 PM - Cycling Room - Alex Johnson",
+        "Yoga - 4:00 PM to 5:00 PM - Studio A - Emily Brown",
+        "MMA - 6:00 PM to 7:00 PM - Martial Arts Room - Khabib"
+    ]
+}

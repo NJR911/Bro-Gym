@@ -35,16 +35,16 @@ export default function Navbar() {
                         <NavLink to="/about" className='links-text' activeClassName='active'>About</NavLink>
                     </li>
                     <li>
+                        <NavLink to="/schedule" className='links-text' activeClassName='active'>Schedule</NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/membership" className='links-text' activeClassName='active'>Membership</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/service" className='links-text' activeClassName='active'>Service</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/blog" className='links-text' activeClassName='active'>Blog</NavLink>
-                    </li>
-                    <li>
                         <NavLink to="/contact" className='links-text' activeClassName='active'>Contact</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/faq" className='links-text' activeClassName='active'>FAQ</NavLink>
                     </li>
                 </ul>
             </div>
