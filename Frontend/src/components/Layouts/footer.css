@@ -8,7 +8,9 @@ footer{
     width: 100%;
     bottom: 0; */
     font-size: 13px;
+    z-index: 2;
 }
+
 .row{
     /* display: grid; */ 
     width: 85%; 

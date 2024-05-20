@@ -12,6 +12,7 @@ import Footer from './components/Layouts/footer'
 import Dashboard from './pages/user/dashboard'
 import Blog from './pages/user/Blog'
 import FAQ from './pages/guest/FAQ'
+import Profile from './pages/user/profile'
 
 
 
@@ -34,6 +35,7 @@ function App() {
             <Route path='/dashboard' element={ <Dashboard /> } />
             <Route path='/blog' element={ <Blog /> } />
             <Route path='/faq' element={ <FAQ /> } />
+            <Route path='/profile' element={ <Profile /> } />
           </Routes>
           <Footer />
         

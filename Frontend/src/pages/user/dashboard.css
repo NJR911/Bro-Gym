@@ -1,0 +1,155 @@
+.dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    background-color: #0a0a0a;
+    min-height: 90vh;
+    padding: 20px 150px;
+  }
+  
+  .dashboard-content h1 {
+    padding: 100px 0 30px;
+    color: #fff;
+    letter-spacing: .5px;
+  }
+  
+  .user-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+/*    */
+
+
+  .dashboard-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    margin-top: 0;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin: 10px 0;
+  }
+  
+  .section ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .section ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .profile-actions button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+/*  Blog  */
+
+
+.blog-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.blog-post {
+  margin-bottom: 30px;
+  padding: 20px;
+  margin: 50px 100px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.blog-post-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-post-date {
+  font-size: 0.9em;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.blog-post-content {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.comment-form {
+  margin-top: 10px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment-form button,
+.blog-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.comment-form button:hover,
+.blog-button:hover {
+  background-color: #c51a1a;
+}
+
+/*        */
+

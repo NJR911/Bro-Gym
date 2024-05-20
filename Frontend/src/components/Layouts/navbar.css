@@ -124,3 +124,21 @@ nav{
     border: 2px solid red;
 }
 
+.button-profile,
+.button-profile:hover,
+.active.button-profile {
+    margin-right: 10px;
+    border: 2px solid red;
+    background-color: red;
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.button-profile:hover,
+.active.button-profile {
+    background-color: #000;
+    color: #fff;
+}

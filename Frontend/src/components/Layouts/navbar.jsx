@@ -1,7 +1,7 @@
 import './navbar.css';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandFist } from '@fortawesome/free-solid-svg-icons'
+import { faHandFist, faPersonRifle, faUser } from '@fortawesome/free-solid-svg-icons'
 import { useAuth } from '../../context/AuthContext';
 
 
@@ -55,7 +55,7 @@ export default function Navbar() {
             <div className="buttons">
                 {user ? (
                     <>
-                        {/* <NavLink to="/dashboard" className='button-login' activeClassName='active'>Dashboard</NavLink> */}
+                        <NavLink to="/profile" className='button-profile' activeClassName='active'><FontAwesomeIcon icon={faUser} /></NavLink>
                         <button onClick={logout} className='button-logout'>Logout</button>
                     </>
                 ) : (

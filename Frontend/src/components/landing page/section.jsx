@@ -17,7 +17,7 @@ export default function Section(){
                     expert trainers, we provide the resources and 
                     guidance you need to achieve your fitness goals.
                     </p>
-                    <Link className="btn1" to="/service">TAKE A TOUR <FontAwesomeIcon className='arrow-icon' icon={ faArrowRight } /></Link>
+                    <Link className="btn1" to="/schedule">TAKE A TOUR <FontAwesomeIcon className='arrow-icon' icon={ faArrowRight } /></Link>
                 </div>
 
                 <div className="class-image">
