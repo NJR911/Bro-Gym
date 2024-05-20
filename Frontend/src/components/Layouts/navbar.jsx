@@ -1,7 +1,7 @@
 import './navbar.css';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandFist, faPersonRifle, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faHandFist, faUser } from '@fortawesome/free-solid-svg-icons'
 import { useAuth } from '../../context/AuthContext';
 
 

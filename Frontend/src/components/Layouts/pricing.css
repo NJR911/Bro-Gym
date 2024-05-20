@@ -78,11 +78,8 @@
     color: red;
 }
 .btn-price{
-    /* color: #f9ac54;
-    background-color: transparent;
-    border: 2px solid #f9ac54;
-    box-shadow: 10px -10px 0 2px #0a0a0a, 
-                10px -10px 0 3px #888; */
+    color: #f9ac54;
+    background-color: #171819;
     border: 1px solid #fff;
     padding: 12px 25px;
     transition: .4s;
