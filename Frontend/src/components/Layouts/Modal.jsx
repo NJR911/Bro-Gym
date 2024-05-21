@@ -1,23 +1,44 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import './modal.css';
+import { useAuth } from '../../context/AuthContext';
+import axios from 'axios';
+
 
 export default function Modal({ isVisible, onClose, plan }) {
     const [paymentType, setPaymentType] = useState('');
     const [error, setError] = useState('');
+    const { user } = useAuth();
+
 
     const handlePaymentChange = (event) => {
         setPaymentType(event.target.value);
         setError('');
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
         if (!paymentType) {
             setError('Please select a payment type.');
         } else {
+            const data = {
+                user_id: user?.id,
+                type: plan.name,
+                price: plan.price.match(/\d+(\.\d{1,2})?/)[0],
+                start_date : new Date().toISOString().split('T')[0],
+                end_date : null
+            }
+
+            console.log(data);
+
+            try {
+                const response = await axios.post('http://localhost:8000/api/membership', data);
+                console.log(response)
+            } catch (error) {
+                console.log(error)
+            }
             // Handle payment submission logic
-            alert(`Payment type selected: ${paymentType}`);
+            alert(`Payment type selected: ${paymentType}\nPlan: ${data.type}\nPrice: ${data.price}`);
             onClose();
         }
     };

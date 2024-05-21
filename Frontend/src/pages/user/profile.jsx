@@ -27,9 +27,7 @@ export default function Profile() {
                     <h2>User Details</h2>
                     <ul>
                         <li>Username: {user?.username}</li>
-                        <li>Age: {user?.age}</li>
-                        <li>Location: {user?.location}</li>
-                        {/* You can include more user details here */}
+ç                        {/* You can include more user details here */}
                     </ul>
                 </div>
                 <div className="profile-actions">
