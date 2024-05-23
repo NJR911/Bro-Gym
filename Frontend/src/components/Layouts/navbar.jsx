@@ -48,10 +48,6 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            {/* <div className="buttons">
-                <NavLink to="/login" className='button-login' activeClassName='active'>Login</NavLink>
-                <NavLink to="/signup" className='button-signup' activeClassName='active'>Sign Up</NavLink>
-            </div> */}
             <div className="buttons">
                 {user ? (
                     <>
