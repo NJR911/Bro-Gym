@@ -10,7 +10,7 @@ import Login from './pages/auth/login'
 import SignUp from './pages/auth/signup'
 import Footer from './components/Layouts/footer'
 import Dashboard from './pages/user/dashboard'
-import Blog from './pages/user/Blog'
+import Blog from './pages/user/Blog.jsx'
 import FAQ from './pages/guest/FAQ'
 import Profile from './pages/user/profile'
 
