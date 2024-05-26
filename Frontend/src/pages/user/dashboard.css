@@ -151,5 +151,62 @@
   background-color: #c51a1a;
 }
 
-/*        */
+
+/* adminDashboard.css */
+
+.dashboard-container {
+  display: flex;
+}
+
+.admin-content {
+  margin-left: 250px;
+  padding: 20px;
+  width: 100%;
+  color: #d0cbcb;
+  background-color: #0a0a0a;
+  min-height: 90vh;
+  padding: 20px 150px;
+}
+
+.admin-content h1 {
+  padding: 100px 0 30px;
+  color: #fff;
+  letter-spacing: .5px;
+}
+
+.admin-content h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.admin-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-content table th,
+.admin-content table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #e80a0a;
+}
+
+.admin-content table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.admin-content table tbody tr {
+  transition: .3s;
+}
+
+.admin-content table tbody tr.has-memberships {
+  background-color: #242222;
+}
+
+.admin-content table tbody tr.has-memberships:hover {
+  
+  background-color: #a738383b;
+}
+
 

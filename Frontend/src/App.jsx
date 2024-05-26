@@ -13,6 +13,7 @@ import Dashboard from './pages/user/dashboard'
 import Blog from './pages/user/Blog.jsx'
 import FAQ from './pages/guest/FAQ'
 import Profile from './pages/user/profile'
+import AdminDashboard from './pages/Admin/AdminDashboard.jsx'
 
 
 
@@ -36,6 +37,7 @@ function App() {
             <Route path='/blog' element={ <Blog /> } />
             <Route path='/faq' element={ <FAQ /> } />
             <Route path='/profile' element={ <Profile /> } />
+            <Route path='/admin' element={ <AdminDashboard /> } />
           </Routes>
           <Footer />
         
