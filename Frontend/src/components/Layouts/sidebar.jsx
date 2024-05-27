@@ -9,7 +9,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <ul>
-        {user.is_admin && (
+        {user?.is_admin && (
           <li>
             <NavLink exact to="/admin" activeClassName="active">Admin</NavLink>
           </li>
@@ -17,8 +17,6 @@ export default function Sidebar() {
         <li><NavLink exact to="/dashboard" activeClassName="active">Dashboard</NavLink></li>
         <li><NavLink to="/profile" activeClassName="active">Profile</NavLink></li>
         <li><NavLink to="/blog" activeClassName="active">Blog</NavLink></li>
-        <li><NavLink to="/schedule" activeClassName="active">Schedule</NavLink></li>
-        <li><NavLink to="/membership" activeClassName="active">Membership</NavLink></li>
         <li><button onClick={logout} className='button-logout'>Logout</button></li>
       </ul>
     </div>

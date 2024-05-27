@@ -18,7 +18,9 @@ export default function Login() {
     const { user } = useAuth();
     
     useEffect(()=>{
-        if(user){
+        if(user?.is_admin){
+            navigate('/admin')
+        } else if(user){
             navigate('/dashboard')
         }
     }, [user, navigate])

@@ -53,6 +53,7 @@ export default function AdminDashboard() {
                                 <th>Price</th>
                                 <th>Start Date</th>
                                 <th>End Date</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,7 +65,7 @@ export default function AdminDashboard() {
                                         user.memberships.map(membership => (
                                             <React.Fragment key={membership.id}>
                                                 <td>{membership.type}</td>
-                                                <td>{membership.price}</td>
+                                                <td>${membership.price}</td>
                                                 <td>{membership.start_date}</td>
                                                 <td>{membership.end_date}</td>
                                             </React.Fragment>
@@ -74,6 +75,7 @@ export default function AdminDashboard() {
                                             <td colSpan="4">No Memberships</td>
                                         </>
                                     )}
+                                    <td><button>Delete</button></td>
                                 </tr>
                             ))}
                         </tbody>

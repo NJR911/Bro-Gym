@@ -209,4 +209,18 @@
   background-color: #a738383b;
 }
 
+td button{
+  color: #ff0000;
+  border: 0;
+  padding: 2px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  transition: .3s;
+}
+td button:hover{
+  color: #da1111;
+  text-decoration: underline;
+}
+
 
